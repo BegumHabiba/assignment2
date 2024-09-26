@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">recipe</string>
+    <string name="app_logo">App Logo</string>
+    <string name="start_exploring_recipes">Start Exploring Recipes</string>
+    <string name="welcome_to_recipe_master">Welcome to Recipe Master!</string>
+    <string name="select_meal_type">Select Meal Type</string>
+    <string name="eggs">Eggs</string>
+    <string name="flour">Flour</string>
+    <string name="sugar">Sugar</string>
+    <string name="select_your_recipe_preferences">Select your recipe preferences</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="dinner">Dinner</string>
+    <string name="lunch">Lunch</string>
+    <string name="selected_cooking_time_0_mins">Selected Cooking Time: 0 mins</string>
+    <string name="selected_ingredients">Selected Ingredients:</string>
+    <string name="show_details">Show Details</string>
+    <string name="vegetarian_gluten_free_options">Vegetarian/Gluten-Free Options</string>
+    <string name="cooking_time_0_mins">Cooking Time: 0 mins</string>
+    <string name="enjoy_every_bite">Enjoy every bite</string>
+</resources>

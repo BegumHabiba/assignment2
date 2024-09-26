@@ -1,0 +1,120 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/instruction_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_recipe_preferences"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eggs" />
+
+    <CheckBox
+        android:id="@+id/checkbox_flour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flour" />
+
+    <CheckBox
+        android:id="@+id/checkbox_sugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sugar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_meal_type"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_meal_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/breakfast" />
+
+        <RadioButton
+            android:id="@+id/radio_lunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lunch" />
+
+        <RadioButton
+            android:id="@+id/radio_dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dinner" />
+    </RadioGroup>
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.25"
+        android:rating="0"
+        android:layout_marginTop="16dp" />
+
+    <SeekBar
+        android:id="@+id/seekbar_cooking_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="120"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textview_cooking_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cooking_time_0_mins"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/selected_ingredients_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_ingredients"
+        android:layout_marginTop="8dp" />
+
+    <Switch
+        android:id="@+id/switch_vegetarian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="@string/vegetarian_gluten_free_options"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <Button
+        android:id="@+id/show_summary_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_details"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/selected_cooking_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_cooking_time_0_mins"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
